@@ -5,10 +5,9 @@
  *
  * Description - for main function starts here
  *
- * Return - just return nothing
+ * Return: main returns int
  */
-
-int main(void) 
+int main(void)
 {
 	const char message[] = "\"Programming is like building a multilingual puzzle";
 		puts(message);

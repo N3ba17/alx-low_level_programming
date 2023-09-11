@@ -29,6 +29,7 @@ int main(void)
 					if (counter3 != 7)
 					{
 						putchar(44);
+						putchar(32);
 					}
 				}
 			}

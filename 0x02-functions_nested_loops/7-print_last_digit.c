@@ -12,18 +12,14 @@
 int print_last_digit(int c)
 {
 int temp;
-	if (c >= 1)
+	if (c >= 0)
 	{
-		return (c % 10);
-	}
-	if (c == 0)
-	{
-		return (0);
+		temp = c % 10;
 	}
 	if (c < 1)
 	{
 		temp = c * -1;
-		return (temp % 10);
 	}
+_putchar(temp+48);
 return (0);
 }

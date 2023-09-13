@@ -13,11 +13,11 @@ int print_sign(int c)
 {
 	if (c > 1)
 	{
-		return (1);
+		return (+1);
 	}
 	if (c == 0)
 	{
-		return (0);
+		return (00);
 	}
 	else
 		return (-1);

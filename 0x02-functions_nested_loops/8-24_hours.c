@@ -18,7 +18,7 @@ int h, m, holder;
 			_putchar(holder + 48);
 			holder = h % 10;
 			_putchar(holder + 48);
-			_putchar(45);
+			_putchar(58);
 			holder = m / 10;
 			_putchar(holder + 48);
 			holder = m % 10;

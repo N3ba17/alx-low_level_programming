@@ -15,7 +15,7 @@ int i, j, cal;
 		for (j = 0; j < 10; j++)
 		{
 			cal = j * i;
-			if (cal > 10)
+			if (cal >= 10)
 			{
 				_putchar((cal / 10) + 48);
 				_putchar((cal % 10) + 48);
@@ -26,6 +26,7 @@ int i, j, cal;
 			{
 				_putchar(48 + cal);
 				_putchar(44);
+				_putchar(32);
 				_putchar(32);
 			}
 		}

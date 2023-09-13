@@ -2,14 +2,16 @@
 /**
  * _islower - check if character is lower case
  *
- * Description - print_alphabet 10  print alphabet
+ * Description - 3-islower 10 check if letter is lower case
+ *
+ *@c: is character rep
  *
  * Return: return int  for main function
 */
 
 int _islower(int c)
 {
-	if(c >=97 && c <= 122)
+	if (c >= 97 && c <= 122)
 	{
 		return (1);
 	}

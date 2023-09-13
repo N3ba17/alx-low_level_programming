@@ -21,6 +21,10 @@ int temp;
 		temp = c * -1;
 		temp = temp % 10;
 	}
+	else
+	{
+		temp = c % 10;
+	}
 _putchar(temp + 48);
 return (temp);
 }

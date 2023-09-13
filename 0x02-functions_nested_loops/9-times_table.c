@@ -27,7 +27,10 @@ int i, j, cal;
 			}
 			else
 			{
-				_putchar(32);
+				if(j != 0)
+				{
+					_putchar(32);
+				}
 				_putchar(48 + cal);
 				if (j != 9)
 				{

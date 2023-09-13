@@ -6,6 +6,21 @@
  *
  * Return: return int  for main function
 */
+void print_alphabet(void);
+
+/**
+ * main -this is entry point for main function
+ *
+ * Description - main function call print_alphabet function
+ *
+ * Return: return int to system
+*/
+
+int main(void)
+{
+	void print_alphabet(void);
+	return (0);
+}
 
 void print_alphabet(void)
 {
@@ -25,8 +40,3 @@ int i;
  *
  * Return: return int to system
 */
-int main(void)
-{
-	void print_alphabet(void);
-	return (0);
-}

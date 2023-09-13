@@ -7,24 +7,24 @@
  * Return: doesn't return
 */
 
-void times_table(void)	
+void times_table(void)
 {
 int i, j, cal;
 	for (i = 0; i < 10; i++)
 	{
 		for (j = 0; j < 10; j++)
 		{
-			cal=j*i;
-			if(cal > 10)
+			cal = j * i;
+			if (cal > 10)
 			{
-				_putchar((cal / 10)+48);
-				_putchar((cal % 10)+48);
+				_putchar((cal / 10) + 48);
+				_putchar((cal % 10) + 48);
 				_putchar(44);
 				_putchar(32);
 			}
 			else
 			{
-				_putchar(48 + cal)
+				_putchar(48 + cal);
 				_putchar(44);
 				_putchar(32);
 			}

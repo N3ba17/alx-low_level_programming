@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet - just print all character of small letters
+ * print_alphabet_x10 - just print all character of small letters 10 times
  *
  * Description - print_alphabet for print alphabet
  *

@@ -19,7 +19,8 @@ int temp;
 	if (c < 1)
 	{
 		temp = c * -1;
+		temp = temp % 10;
 	}
-_putchar(temp+48);
-return (0);
+_putchar(temp + 48);
+return (temp);
 }

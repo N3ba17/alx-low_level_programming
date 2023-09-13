@@ -12,7 +12,7 @@
 int _abs(int c)
 {
 int temp;
-	if (c > 1)
+	if (c >= 1)
 	{
 		return (c);
 	}

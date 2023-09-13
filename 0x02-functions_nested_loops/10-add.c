@@ -8,7 +8,7 @@
  *
  * Description - 3-islower 10 check if letter is lower case
  *
- * Return: int 
+ * Return: int
 */
 int add(int x, int y)
 {

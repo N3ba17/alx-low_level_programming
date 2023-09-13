@@ -9,7 +9,7 @@
  * Return: return int  for main function
 */
 
-int _abs (int c)
+int _abs(int c)
 {
 int temp;
 	if (c > 1)

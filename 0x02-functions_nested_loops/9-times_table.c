@@ -27,7 +27,7 @@ int i, j, cal;
 			}
 			else
 			{
-				if(j != 0)
+				if (j != 0)
 				{
 					_putchar(32);
 				}

@@ -19,15 +19,21 @@ int i, j, cal;
 			{
 				_putchar((cal / 10) + 48);
 				_putchar((cal % 10) + 48);
-				_putchar(44);
-				_putchar(32);
+				if (j != 9)
+				{
+					_putchar(44);
+					_putchar(32);
+				}
 			}
 			else
 			{
+				_putchar(32);
 				_putchar(48 + cal);
-				_putchar(44);
-				_putchar(32);
-				_putchar(32);
+				if (j != 9)
+				{
+					_putchar(44);
+					_putchar(32);
+				}
 			}
 		}
 		_putchar('\n');

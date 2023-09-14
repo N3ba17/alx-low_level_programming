@@ -7,7 +7,7 @@
  * Return: return int
 */
 
-int main (void)
+int main(void)
 {
 int j, result;
 
@@ -16,9 +16,9 @@ int j, result;
 		if (j % 3 == 0 || j % 5 == 0)
 		{
 			result = result + j;
-		} 
+		}
 	}
-printf("%d\n",result);
+printf("%d\n", result);
 return (0);
 }
 

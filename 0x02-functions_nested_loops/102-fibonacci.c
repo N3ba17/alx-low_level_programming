@@ -16,9 +16,16 @@ long int i, j, k, temp;
 	for (j = 0; j <= 49; j++)
 	{
 		temp = i + k;
-		printf("%ld, ", temp);
-		i = k;
-		k = temp;
+		if (j != 49)
+		{
+			printf("%ld, ", temp);
+			i = k;
+			k = temp;
+		}
+		if (j == 49)
+		{
+			printf("%ld", temp);
+		}
 	}
 putchar('\n');
 return (0);

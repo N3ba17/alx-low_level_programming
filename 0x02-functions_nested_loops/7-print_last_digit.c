@@ -15,7 +15,7 @@ int temp;
 
 	if (c < 1)
 	{
-		temp = temp % 10;
+		temp = c % 10;
 		temp = temp * -1;
 	}
 	else

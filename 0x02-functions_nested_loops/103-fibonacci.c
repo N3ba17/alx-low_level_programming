@@ -10,9 +10,8 @@
 int main(void)
 {
 long int i, j, k, temp, sum;
-	
-	sum =0;
-	temp =0;
+	sum = 0;
+	temp = 0;
 	i = 0;
 	k = 1;
 	for (j = 0; j <= 49; j++)
@@ -20,15 +19,15 @@ long int i, j, k, temp, sum;
 		while (temp < 4000000)
 		{
 			temp = i + k;
-			if( temp % 2 == 0)
+			if (temp % 2 == 0)
 			{
 				sum = sum + temp;
-			} 
+			}
 			i = k;
 			k = temp;
 		}
 	}
-printf("%ld",sum);
+printf("%ld", sum);
 putchar('\n');
 return (0);
 }

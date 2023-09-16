@@ -10,7 +10,7 @@ int main(void)
 int i;
 	for (i = 1; i <= 100; i++)
 	{
-		if (i != 100 || i != 1)
+		if (i != 100 && i != 1)
 		{
 			printf(" ");
 		}
@@ -32,4 +32,5 @@ int i;
 		printf("%d", i);
 	}
 printf("\n");
+return (0);
 }

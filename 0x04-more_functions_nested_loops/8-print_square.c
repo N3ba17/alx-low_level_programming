@@ -5,19 +5,19 @@
  * @n: int from main
  * Description - print line
  */
-void print_diagonal(int n)
+void print_diagonal(int size)
 {
 int i, m;
 
-if (n > 0)
+if (size > 0)
 {
-	for (i = 0; i < n; i++)
+	for (i = 0; i < size; i++)
 	{
-		for (m = 0; m < n; m++)
+		for (m = 0; m < size; m++)
 		{
 			_putchar('#');
 		}
-	if( m != n - 1)
+	if( m != size - 1)
 	{
 		_putchar('\n');
 	}

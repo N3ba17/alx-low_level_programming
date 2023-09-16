@@ -17,10 +17,10 @@ if (size > 0)
 		{
 			_putchar('#');
 		}
-	if (m != size - 1)
-	{
-		_putchar('\n');
-	}
+		if (i != size - 1)
+		{
+			_putchar('\n');
+		}
 	}
 }
 _putchar('\n');

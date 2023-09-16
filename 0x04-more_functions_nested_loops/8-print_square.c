@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * print_diagonal - print lines
+ * print_square - print squares
  * Return: no return
- * @n: int from main
+ * @size: int from main
  * Description - print line
  */
-void print_diagonal(int size)
+void print_square(int size)
 {
 int i, m;
 
@@ -17,7 +17,7 @@ if (size > 0)
 		{
 			_putchar('#');
 		}
-	if( m != size - 1)
+	if (m != size - 1)
 	{
 		_putchar('\n');
 	}

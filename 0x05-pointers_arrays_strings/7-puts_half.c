@@ -1,10 +1,10 @@
 #include "main.h"
-i/**
+/**
  *puts_half - length of string
  *@str: string var
  *Return: none
  */
-void  puts_half(char *str)
+void puts_half(char *str)
 {
 	int i;
 

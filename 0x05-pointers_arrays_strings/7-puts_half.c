@@ -1,5 +1,5 @@
 #include "main.h"
-/**
+i/**
  *puts_half - length of string
  *@str: string var
  *Return: none
@@ -20,7 +20,7 @@ void  puts_half(char *str)
 		len = len / 2;
 		for (i = 0;i < len;i++)
 		{
-			_putchar(str[len]);
+			_putchar(str[i]);
 		}
 	}
 	if (len % 2 == 0)
@@ -28,7 +28,7 @@ void  puts_half(char *str)
 		len = (len - 1) / 2;
 		for (i = 0;i < len;i++)
 		{
-			_putchar(str[len]);
+			_putchar(str[i]);
 		}
 	}
 }

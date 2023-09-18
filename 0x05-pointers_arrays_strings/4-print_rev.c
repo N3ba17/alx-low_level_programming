@@ -12,10 +12,10 @@ char *tmp = s;
 	{
 		tmp++;
 	}
-	len--;
+	tmp--;
 	while (tmp >= s)
 	{
-		_puchar(*tmp);
+		_putchar(*tmp);
 		tmp--;
 	}
 _putchar('\n');

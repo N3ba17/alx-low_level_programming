@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *_puts2 - length of string
+ *puts2 - length of string
  *@str: string var
  *Return: none
  */
-void _puts2(char *str)
+void puts2(char *str)
 {
 	int i;
 

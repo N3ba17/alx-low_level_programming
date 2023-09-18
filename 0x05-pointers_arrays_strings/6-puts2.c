@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *_strlen - length of string
- *@s: string var
+ *_puts2 - length of string
+ *@str: string var
  *Return: none
  */
 void _puts2(char *str)
@@ -15,7 +15,7 @@ void _puts2(char *str)
 		len++;
 		str++;
 	}
-	for (i = 0;i < len; i++)
+	for (i = 0; i < len; i++)
 	{
 		_putchar(str[i]);
 		i++;

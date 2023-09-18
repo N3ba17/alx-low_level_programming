@@ -4,7 +4,7 @@
  *@s: string var
  *Return: none
  */
-int _puts2(char *str)
+void _puts2(char *str)
 {
 	int i;
 
@@ -20,4 +20,5 @@ int _puts2(char *str)
 		_putchar(str[i]);
 		i++;
 	}
+_putchar('\n');
 }

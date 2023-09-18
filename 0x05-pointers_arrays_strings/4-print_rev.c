@@ -18,6 +18,7 @@ int tmp = 0;
 	for (i = tmp; i > 0; i--)
 	{
 		_putchar(*s);
+		s--;
 	}
 _putchar('\n');
 }

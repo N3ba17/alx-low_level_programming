@@ -11,6 +11,7 @@ char *tmp = s;
 	while (*s != '\0')
 	{
 		tmp++;
+		s++;
 	}
 	tmp--;
 	while (tmp >= s)

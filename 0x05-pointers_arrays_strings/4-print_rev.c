@@ -15,7 +15,7 @@ int tmp = 0;
 		s++;
 	}
 	tmp--;
-	for (i = tmp; i >= 0; i++)
+	for (i = tmp; i >= 0; i--)
 	{
 		_putchar(s[i]);
 	}

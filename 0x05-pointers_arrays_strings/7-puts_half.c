@@ -6,7 +6,7 @@
  */
 void puts_half(char *str)
 {
-	int i, ful;
+	int i, ful, hol;
 	char *new = str;
 
 
@@ -18,7 +18,8 @@ void puts_half(char *str)
 		new++;
 	}
 	ful = len;
-	if (len % 2 == 0)
+	hol = len % 2;
+	if (hol == 0)
 	{
 		len = len / 2;
 		for (i = len; i < ful; i++)
@@ -26,7 +27,7 @@ void puts_half(char *str)
 			_putchar(str[i]);
 		}
 	}
-	if (len % 2 == 1)
+	if (hol == 1)
 	{
 		len = (len - 1);
 		len = len / 2;

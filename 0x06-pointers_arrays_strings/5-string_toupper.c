@@ -13,7 +13,7 @@ while (value[a] != '\0')
 {
 	a++;
 }
-for (i = 0;i < a; i++)
+for (i = 0; i < a; i++)
 {
 	if (value[i] >= 97 && value[i] <= 122)
 	{

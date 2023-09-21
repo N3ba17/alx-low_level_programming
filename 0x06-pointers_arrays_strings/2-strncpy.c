@@ -21,9 +21,14 @@ while (src[c2])
 {
 	c2++;
 }
-for (l = 0; l < n; l++)
+for (l = 0; l < n && src[l] != '\0'; l++)
 {
 	dest[l] = src[l];
+}
+while (l < n)
+{
+	dest[l] = '\0';
+	l++;
 }
 return (dest);
 }

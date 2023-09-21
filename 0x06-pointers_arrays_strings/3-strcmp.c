@@ -12,7 +12,7 @@ l = 0;
 result = 0;
 while (s1[l] != '\0' && s2[l] != '\0')
 {
-	if(s1[l] != s2[l])
+	if (s1[l] != s2[l])
 	{
 		result = s1[l] - s2[l];
 		break;

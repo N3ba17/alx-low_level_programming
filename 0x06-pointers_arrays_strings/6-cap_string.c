@@ -15,10 +15,11 @@ while (v[l] != '\0')
 		if (l == 0)
 		{
 			v[l] -= 32;
+			continue;
 		}
 		for (x = 0; x < 15; x++)
 		{
-			if (v[l] == va[x])
+			if (v[l - 1] == va[x])
 			{
 				v[l] -= 32;
 			}

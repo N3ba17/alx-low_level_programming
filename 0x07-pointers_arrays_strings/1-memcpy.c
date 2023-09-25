@@ -7,7 +7,7 @@
  *@n: third itme
  */
 
-char *_memcpy (char *dest, *src, unsigned int n)
+char *_memcpy(char *dest, *src, unsigned int n)
 {
 
 }

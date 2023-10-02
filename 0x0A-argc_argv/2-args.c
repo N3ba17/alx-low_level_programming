@@ -7,7 +7,7 @@
 */
 int main(int argc, char __attribute__((unused)) *argv[])
 {
-	int x = 1;
+	int x = 0;
 
 	while (x < argc)
 	{

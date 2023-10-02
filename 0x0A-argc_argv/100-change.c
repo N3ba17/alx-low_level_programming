@@ -24,7 +24,6 @@ for (i = 0; i < 5; i++)
 		cents += 1;
 	}
 }
-printf("%d\n", cents);
-
+printf("%d\n",cents);
 return (0);
 }

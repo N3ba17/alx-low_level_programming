@@ -8,7 +8,7 @@
 */
 int main(int __attribute__((unused)) argc, char *argv[])
 {
-	int x, y;
+	int x, y, z;
 
 	if (argc != 3)
 	{
@@ -17,6 +17,7 @@ int main(int __attribute__((unused)) argc, char *argv[])
 	}
 	x = atoi(argv[1]);
 	y = atoi(argv[2]);
-	printf("%d \n", x * y);
+	z = x * y;
+	printf("%d \n", z);
 	return (0);
 }

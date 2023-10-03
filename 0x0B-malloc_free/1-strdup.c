@@ -24,7 +24,7 @@ if (assign == NULL)
 }
 for (i = 0; i <= x; i++)
 {
-	assign[i] = srt[i];
+	assign[i] = str[i];
 }
 return (assign);
 }

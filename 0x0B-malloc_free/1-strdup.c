@@ -13,7 +13,7 @@ if (str == NULL)
 {
 	return (NULL);
 }
-while(str[x] != '\0')
+while (str[x] != '\0')
 {
 	x++;
 }
@@ -22,7 +22,7 @@ if (assign == NULL)
 {
 	return (NULL);
 }
-for (i = 0;i <= x;i++)
+for (i = 0; i <= x; i++)
 {
 	assign[i] = srt[i];
 }

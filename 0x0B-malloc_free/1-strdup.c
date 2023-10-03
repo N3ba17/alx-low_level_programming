@@ -7,7 +7,8 @@
 char *_strdup(char *str)
 {
 char *assign;
-unsigned int i, x;
+unsigned int i;
+int x = 0;
 
 if (str == NULL)
 {
@@ -17,7 +18,7 @@ while (str[x] != '\0')
 {
 	x++;
 }
-assign = (char *) malloc(sizeof(char) * (x + 1));
+assign = (char *) malloc(x + 1);
 if (assign == NULL)
 {
 	return (NULL);

@@ -17,7 +17,7 @@ while (str[x] != '\0')
 {
 	x++;
 }
-assign = (char *) malloc(sizeof(char) * (i + 1));
+assign = (char *) malloc(sizeof(char) * (x + 1));
 if (assign == NULL)
 {
 	return (NULL);

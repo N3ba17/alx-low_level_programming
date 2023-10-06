@@ -23,6 +23,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		j = n;
 	}
+	if (s1 == NULL)
+	{
+		s1 = "";
+	}
+	if (s2 == NULL)
+	{
+		s2 = "";
+	}
 	new_p = malloc(sizeof(char) * (i + j + 1));
 	for (x = 0; x < i; x++)
 	{

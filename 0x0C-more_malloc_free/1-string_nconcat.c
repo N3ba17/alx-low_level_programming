@@ -8,7 +8,7 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int i = 0, j = 0, x;
+	unsigned int i = 0, j = 0, x;
 	char *new_p;
 
 	while (s1[i] != '\0')

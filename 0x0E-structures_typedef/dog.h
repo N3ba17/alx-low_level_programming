@@ -1,4 +1,3 @@
-#include <stdio.h>
 #ifndef struct_h
 #define struct_h
 

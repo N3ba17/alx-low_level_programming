@@ -1,9 +1,9 @@
 #include"dog.h"
 /**
- *free_dogs - free dogs
+ *free_dog - free dogs
  *@d: dogs
  */
-void free_dogs(dog_t *d)
+void free_dog(dog_t *d)
 {
 	if (d)
 	{
